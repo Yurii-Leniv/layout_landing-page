@@ -1,3 +1,4 @@
+<!-- #region -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,17 +7,57 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Landing Page</title>
+    <title>Mybike</title>
     <link
       rel="stylesheet"
-      href="src/styles/main.scss"
+      href="src/main.scss"
     />
     <script
       src="src/scripts/main.js"
       defer
     ></script>
   </head>
+  <!-- #endregion -->
   <body>
-    <h1>Landing Page</h1>
+    <header class="header">
+      <div class="header__top">
+        <a href="#">
+          <img src="images/Logo.png" alt="Mybike logo">
+        </a>
+
+        <a href="#" class="icon icon--phone"></a>
+        <a href="#" class="icon icon--menu"></a>
+      </div>
+
+      <div class="header__bottom">
+        <h1>Take the Streets</h1>
+      </div>
+    </header>
+
+    <aside class="menu"></aside>
+
+    <main class="main">
+      <section class="about-us">
+        <h2>Move free</h2>
+      </section>
+
+      <section class="compare-bikes">
+        <h2>Compare bikes</h2>
+      </section>
+
+      <section class="details">
+        <h2>The details</h2>
+      </section>
+
+      <section class="contacts">
+        <h2>Contact us</h2>
+      </section>
+
+    </main>
+
+    <main>
+      <h3>Move Free</h3>
+      <p>Shift your ride, not gears. Find the fastest way to move in the city as the bike adapts intuitively to power the speed you need.</p>
+    </main>
   </body>
 </html>
