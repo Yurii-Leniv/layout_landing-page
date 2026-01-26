@@ -1,14 +1,12 @@
-@import './styles/utils/variables';
-@import './styles/utils/mixin';
-@import 'styles/main';
-@import 'styles/page';
-@import 'styles/section_title';
-@import 'styles/about-us';
-@import 'styles/explore';
-@import 'styles/header';
-@import 'styles/icon';
-@import 'styles/top-bar';
-@import 'styles/menu';
-@import 'styles/nav';
-
-
+@use './styles/utils/variables' as *;
+@use './styles/utils/mixin' as *;
+@use 'styles/main' as *;
+@use 'styles/page' as *;
+@use 'styles/section_title' as *;
+@use 'styles/about-us' as *;
+@use 'styles/explore' as *;
+@use 'styles/header' as *;
+@use 'styles/icon' as *;
+@use 'styles/top-bar' as *;
+@use 'styles/menu' as *;
+@use 'styles/nav' as *;

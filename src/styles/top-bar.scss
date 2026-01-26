@@ -1,4 +1,4 @@
-
+@use 'utils/mixin' as *;
 
 .top-bar{
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   padding-block: 25px  0;
 
-  @include onTablet{
+  @include on-tablet{
     padding-block: 50px;
   }
 
@@ -21,10 +21,10 @@
 
   &__logo{
     height: 46px;
-    
+
     @include hover(transform,scale(1.2));
 
-    @include onTablet{
+    @include on-tablet{
       height: 65px;
     }
   }

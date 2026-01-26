@@ -1,3 +1,5 @@
+@use 'utils/mixin' as *;
+
 .section-title{
   margin: 0;
   font-weight: 700;
@@ -16,11 +18,11 @@
     color: #D12D35;
   }
 
-  @include onTablet{
+  @include on-tablet{
     font-size: 48px;
   }
 
-  @include onDesktop{
+  @include on-desktop{
     font-size: 48px;
   }
 }
