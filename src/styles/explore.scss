@@ -1,0 +1,40 @@
+.explore{
+display: grid;
+row-gap: 48px;
+
+@include onTablet{
+  justify-items: center;
+}
+
+@include onDesktop{
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  justify-items: stretch;
+}
+
+  &__item{
+    &--photo{
+    width: 100%;
+
+    }
+
+    &--title{
+      color: #D12D35;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      padding: 24px 0 4px ;
+    }
+
+    &--info{
+      font-family: Roboto , sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: center;
+
+    }
+  }
+}
