@@ -18,11 +18,13 @@
 
   &-top{
     padding-bottom: 40px;
+
+    @include on-desktop{
+      padding-bottom: 55px;
+    }
   }
 
-  &__content{
-    @include content-padding-inlane;
-  }
+
 
 
 
