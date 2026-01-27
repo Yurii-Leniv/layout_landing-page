@@ -22,12 +22,13 @@
   @include on-desktop{
     margin-inline: auto;
     padding-inline: 120px;
-    max-width: 1260px;
+    max-width: 1460px;
   }
 }
 
 .container{
   @include content-padding-inlane;
+
   width: 100%;
 }
 
@@ -39,7 +40,8 @@
 }
 
 @mixin page-grid{
-  --colums:2;
+  --colums: 2;
+
   display: grid;
   column-gap: 24px;
   grid-template-columns: repeat(var(--colums), 1fr);

@@ -1,5 +1,8 @@
 @use 'utils/mixin' as *;
 
+* {
+  box-sizing: border-box
+}
 .main{
   &__content{
     display: grid;
