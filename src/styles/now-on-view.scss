@@ -5,6 +5,7 @@
   &__button{
     height: 56px;
     margin-top: 40px;
+    
     @include page-grid;
 
     &-b{
