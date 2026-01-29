@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>The-Met</title>
+    <link rel="icon" href="./src/images/logo-png.svg">
     <link
       rel="stylesheet"
       href="src/index.scss"
@@ -28,12 +29,28 @@
       <div class="header__content">
         <div class="top-bar">
           <a href="#" class="top-bar__logo-link">
-            <img src="src/images/THE-MET.png"
+            <img src="src/images/logo-png.svg"
             alt="Mybike logo"
             class="top-bar__logo">
           </a>
           <div class="top-bar__icons">
-            <a href="#" class="icon icon--phone"></a>
+
+            <div class="phone__wraper">
+
+              <div class="hover-info">
+                <p class="hover-info__block--text">The Met Fifth Avenue</p>
+                <p class="hover-info__block--text hover-info__block--text-number">+1 212-535-7710</p>
+
+                <p class="hover-info__block--text">The Met Cloisters</p>
+                <p class="hover-info__block--text hover-info__block--text-number">+1 212-923-3700</p>
+              </div>
+
+              <a href="#" class="icon icon--phone"></a>
+
+
+            </div>
+
+
             <a href="#menu" class="icon icon--menu"></a>
           </div>
         </div>
@@ -311,27 +328,36 @@
                   </div>
                 </div>
               </div>
-              <div class="contacts__field">
+              <form
+                action="#"
+                method="post"
+                class="contacts__field"
+              >
+
                 <div class="contacts__field--inputs">
                   <input
-                    type="text"
-                    placeholder="NAME"
-                    class="contacts__field--inputs-1"
+                      required
+                      type="text"
+                      placeholder="NAME"
+                      class="contacts__field--inputs-1"
                   >
                   <input
-                    type="text"
-                    placeholder="EMAIL"
-                    class="contacts__field--inputs-1"
+                      required
+                      type="email"
+                      placeholder="EMAIL"
+                      class="contacts__field--inputs-1"
                   >
                   <textarea
-                    placeholder="MESSAGE"
-                    class="contacts__field--inputs-2"
+                      required
+                      placeholder="MESSAGE"
+                      class="contacts__field--inputs-2"
                   ></textarea>
                 </div>
                 <button type="button" class="contacts__field--button">
                   SEND
                 </button>
-              </div>
+
+              </form>
             </div>
 
           </section>
@@ -342,7 +368,7 @@
 
       <footer class="footer">
         <div class="footer__image-container">
-          
+
         </div>
       </footer>
 

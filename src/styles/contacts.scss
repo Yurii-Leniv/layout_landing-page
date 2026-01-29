@@ -4,7 +4,7 @@
 
   &__wraper{
     @include page-grid;
-    
+
     row-gap: 48px;
   }
 
@@ -110,15 +110,26 @@
         border: none;
         height: 48px;
         background-color: #F8F8FA;
+
+         &:hover {
+            border-color: #D5D7DE;
+          }
       }
 
       &-2{
+        display: block;
+        resize: none;
+        text-align: left;
         padding-top: 14px;
         padding-left: 16px;
         font-family: inherit;
         border: none;
         height: 144px;
         background-color: #F8F8FA;
+
+         &:hover {
+            border-color: #D5D7DE;
+          }
       }
     }
   }

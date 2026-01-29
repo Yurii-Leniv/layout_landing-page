@@ -38,6 +38,10 @@
     @include on-tablet{
       font-size: 64px;
     }
+
+    @include on-desktop{
+      font-size: 80px;
+    }
   }
 }
 
