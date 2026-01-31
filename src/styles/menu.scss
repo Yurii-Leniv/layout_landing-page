@@ -1,6 +1,7 @@
 @use 'utils/mixin' as *;
 
 .menu{
+  overflow: auto;
   position: fixed;
   top: 0;
   right: 0;
@@ -18,6 +19,11 @@
 
   &-top{
     padding-bottom: 40px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
 
     @include on-desktop{
       padding-bottom: 55px;

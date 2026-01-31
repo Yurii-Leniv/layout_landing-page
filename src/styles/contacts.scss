@@ -37,11 +37,17 @@
     }
 
     &--bold{
+      text-decoration: none;
+      display: block;
       font-weight: 700;
       font-style: Bold;
       font-size: 16px;
       line-height: 27px;
       color: #3E3E3E;
+
+      &:hover{
+        color: #D12D35;
+      }
     }
 
     &-1{

@@ -41,6 +41,9 @@ h4{
     }
   }
 
+  &:has(.page__menu:target) {
+    overflow: hidden; 
+  }
 
 }
 

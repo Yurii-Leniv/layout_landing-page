@@ -36,24 +36,6 @@
 
 }
 
-.phone__wraper{
-  display: flex;
-  align-items: center;
-  position: relative;
-  text-align: right;
-
-  &:hover {
-    .hover-info {
-      @include on-desktop {
-        opacity: 1; // Було 5, виправлено на 1
-        transform: translateX(-110%); // Трохи підкоригуй відступ
-        z-index: 999;
-        pointer-events: auto;
-      }
-    }
-  }
-}
-
 .hover-info{
   display: flex;
   flex-direction: column;
@@ -81,6 +63,26 @@
   }
 
 }
+
+.phone__wraper{
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: right;
+
+  &:hover {
+    .hover-info {
+      @include on-desktop {
+        opacity: 1;
+        transform: translateX(-110%);
+        z-index: 999;
+        pointer-events: auto;
+      }
+    }
+  }
+}
+
+
 
 
 
